@@ -1,0 +1,577 @@
+frontend/src/Frontend.hs:8:1-20: warning: [-Wunused-imports]
+    The import of ‘Control.Monad’ is redundant
+  |
+8 | import Control.Monad
+  | ^^^^^^^^^^^^^^^^^^^^
+frontend/src/Frontend.hs:15:1-22: warning: [-Wunused-imports]
+    The import of ‘Obelisk.Configs’ is redundant
+   |
+15 | import Obelisk.Configs
+   | ^^^^^^^^^^^^^^^^^^^^^^
+frontend/src/Frontend.hs:61:12-13: warning: [-Wname-shadowing]
+    This binding for ‘id’ shadows the existing binding
+      imported from ‘Prelude’ at frontend/src/Frontend.hs:6:8-15
+      (and originally defined in ‘GHC.Base’)
+   |
+61 | updateRest id = postJson (getPath (BackendRoute_Editar_Restaurante :/ ())) id
+   |            ^^
+frontend/src/Frontend.hs:70:12-13: warning: [-Wname-shadowing]
+    This binding for ‘id’ shadows the existing binding
+      imported from ‘Prelude’ at frontend/src/Frontend.hs:6:8-15
+      (and originally defined in ‘GHC.Base’)
+   |
+70 | getProdReq id = xhrRequest "GET" (getPath (BackendRoute_Buscar :/ id)) def
+   |            ^^
+frontend/src/Frontend.hs:161:17-28: warning: [-Wname-shadowing]
+    This binding for ‘nomeCliente1’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:57:5-16)
+    |
+161 |                 nomeCliente1 <- inputElement def
+    |                 ^^^^^^^^^^^^
+frontend/src/Frontend.hs:163:17-25: warning: [-Wname-shadowing]
+    This binding for ‘telefone1’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:58:5-13)
+    |
+163 |                 telefone1 <- numberInput
+    |                 ^^^^^^^^^
+frontend/src/Frontend.hs:165:17-27: warning: [-Wname-shadowing]
+    This binding for ‘qntPessoas1’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:59:5-15)
+    |
+165 |                 qntPessoas1 <- numberInput
+    |                 ^^^^^^^^^^^
+frontend/src/Frontend.hs:183:17-32: warning: [-Wname-shadowing]
+    This binding for ‘nomeRestaurante1’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:50:5-20)
+    |
+183 |                 nomeRestaurante1 <- inputElement def
+    |                 ^^^^^^^^^^^^^^^^
+frontend/src/Frontend.hs:185:17-31: warning: [-Wname-shadowing]
+    This binding for ‘quantidadeFila1’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:51:5-19)
+    |
+185 |                 quantidadeFila1 <- numberInput
+    |                 ^^^^^^^^^^^^^^^
+frontend/src/Frontend.hs:187:17-32: warning: [-Wname-shadowing]
+    This binding for ‘notaRestaurante1’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:52:5-20)
+    |
+187 |                 notaRestaurante1 <- numberInput
+    |                 ^^^^^^^^^^^^^^^^
+frontend/src/Frontend.hs:207:17-26: warning: [-Wname-shadowing]
+    This binding for ‘nomePrato1’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:64:5-14)
+    |
+207 |                 nomePrato1 <- inputElement def
+    |                 ^^^^^^^^^^
+frontend/src/Frontend.hs:209:17-27: warning: [-Wname-shadowing]
+    This binding for ‘precoPrato1’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:65:5-15)
+    |
+209 |                 precoPrato1 <- numberInput
+    |                 ^^^^^^^^^^^
+frontend/src/Frontend.hs:211:17-26: warning: [-Wname-shadowing]
+    This binding for ‘notaPrato1’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:66:5-14)
+    |
+211 |                 notaPrato1 <- numberInput
+    |                 ^^^^^^^^^^
+frontend/src/Frontend.hs:375:17-22: warning: [-Wname-shadowing]
+    This binding for ‘idRest’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:26:5-10)
+    |
+375 |                 idRest <- numberInput
+    |                 ^^^^^^
+frontend/src/Frontend.hs:377:17-31: warning: [-Wname-shadowing]
+    This binding for ‘nomeRestaurante’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:27:5-19)
+    |
+377 |                 nomeRestaurante <- inputElement def
+    |                 ^^^^^^^^^^^^^^^
+frontend/src/Frontend.hs:379:17-30: warning: [-Wname-shadowing]
+    This binding for ‘quantidadeFila’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:28:5-18)
+    |
+379 |                 quantidadeFila <- numberInput
+    |                 ^^^^^^^^^^^^^^
+frontend/src/Frontend.hs:381:17-31: warning: [-Wname-shadowing]
+    This binding for ‘notaRestaurante’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:29:5-19)
+    |
+381 |                 notaRestaurante <- numberInput
+    |                 ^^^^^^^^^^^^^^^
+frontend/src/Frontend.hs:398:17-26: warning: [-Wname-shadowing]
+    This binding for ‘qntPessoas’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:37:5-14)
+    |
+398 |                 qntPessoas <- numberInput
+    |                 ^^^^^^^^^^
+frontend/src/Frontend.hs:400:17-27: warning: [-Wname-shadowing]
+    This binding for ‘nomeCliente’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:35:5-15)
+    |
+400 |                 nomeCliente <- inputElement def
+    |                 ^^^^^^^^^^^
+frontend/src/Frontend.hs:402:17-25: warning: [-Wname-shadowing]
+    This binding for ‘idCliente’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:34:5-13)
+    |
+402 |                 idCliente <- numberInput
+    |                 ^^^^^^^^^
+frontend/src/Frontend.hs:404:17-24: warning: [-Wname-shadowing]
+    This binding for ‘telefone’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:36:5-12)
+    |
+404 |                 telefone <- numberInput
+    |                 ^^^^^^^^
+frontend/src/Frontend.hs:421:17-25: warning: [-Wname-shadowing]
+    This binding for ‘notaPrato’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:45:5-13)
+    |
+421 |                 notaPrato <- numberInput
+    |                 ^^^^^^^^^
+frontend/src/Frontend.hs:423:17-25: warning: [-Wname-shadowing]
+    This binding for ‘nomePrato’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:43:5-13)
+    |
+423 |                 nomePrato <- inputElement def
+    |                 ^^^^^^^^^
+frontend/src/Frontend.hs:425:17-23: warning: [-Wname-shadowing]
+    This binding for ‘idPrato’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:42:5-11)
+    |
+425 |                 idPrato <- numberInput
+    |                 ^^^^^^^
+frontend/src/Frontend.hs:427:17-26: warning: [-Wname-shadowing]
+    This binding for ‘precoPrato’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:44:5-14)
+    |
+427 |                 precoPrato <- numberInput
+    |                 ^^^^^^^^^^
+frontend/src/Frontend.hs:445:9-24: warning: [-Wname-shadowing]
+    This binding for ‘notaRestaurante2’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:74:5-20)
+    |
+445 |         notaRestaurante2 <- numberInput
+    |         ^^^^^^^^^^^^^^^^
+frontend/src/Frontend.hs:447:9-24: warning: [-Wname-shadowing]
+    This binding for ‘nomeRestaurante2’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:72:5-20)
+    |
+447 |         nomeRestaurante2 <- inputElement def
+    |         ^^^^^^^^^^^^^^^^
+frontend/src/Frontend.hs:449:9-15: warning: [-Wname-shadowing]
+    This binding for ‘idRest2’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:71:5-11)
+    |
+449 |         idRest2 <- numberInput
+    |         ^^^^^^^
+frontend/src/Frontend.hs:451:9-23: warning: [-Wname-shadowing]
+    This binding for ‘quantidadeFila2’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:73:5-19)
+    |
+451 |         quantidadeFila2 <- numberInput
+    |         ^^^^^^^^^^^^^^^
+frontend/src/Frontend.hs:470:9-19: warning: [-Wname-shadowing]
+    This binding for ‘qntPessoas2’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:83:5-15)
+    |
+470 |         qntPessoas2 <- numberInput
+    |         ^^^^^^^^^^^
+frontend/src/Frontend.hs:472:9-20: warning: [-Wname-shadowing]
+    This binding for ‘nomeCliente2’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:81:5-16)
+    |
+472 |         nomeCliente2 <- inputElement def
+    |         ^^^^^^^^^^^^
+frontend/src/Frontend.hs:474:9-18: warning: [-Wname-shadowing]
+    This binding for ‘idCliente2’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:80:5-14)
+    |
+474 |         idCliente2 <- numberInput
+    |         ^^^^^^^^^^
+frontend/src/Frontend.hs:476:9-17: warning: [-Wname-shadowing]
+    This binding for ‘telefone2’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:82:5-13)
+    |
+476 |         telefone2 <- numberInput
+    |         ^^^^^^^^^
+frontend/src/Frontend.hs:478:9-15: warning: [-Wname-shadowing]
+    This binding for ‘delCli2’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:84:5-11)
+    |
+478 |         delCli2 <- numberInput
+    |         ^^^^^^^
+frontend/src/Frontend.hs:495:9-18: warning: [-Wname-shadowing]
+    This binding for ‘notaPrato2’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:92:5-14)
+    |
+495 |         notaPrato2 <- numberInput
+    |         ^^^^^^^^^^
+frontend/src/Frontend.hs:497:9-18: warning: [-Wname-shadowing]
+    This binding for ‘nomePrato2’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:90:5-14)
+    |
+497 |         nomePrato2 <- inputElement def
+    |         ^^^^^^^^^^
+frontend/src/Frontend.hs:499:9-16: warning: [-Wname-shadowing]
+    This binding for ‘idPrato2’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:89:5-12)
+    |
+499 |         idPrato2 <- numberInput
+    |         ^^^^^^^^
+frontend/src/Frontend.hs:501:9-19: warning: [-Wname-shadowing]
+    This binding for ‘precoPrato2’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:91:5-15)
+    |
+501 |         precoPrato2 <- numberInput
+    |         ^^^^^^^^^^^
+frontend/src/Frontend.hs:503:9-17: warning: [-Wname-shadowing]
+    This binding for ‘delPrato2’ shadows the existing binding
+      imported from ‘Common.Api’ at frontend/src/Frontend.hs:21:1-17
+      (and originally defined at common/src/Common/Api.hs:93:5-13)
+    |
+503 |         delPrato2 <- numberInput
+    |         ^^^^^^^^^
+frontend/src/Frontend.hs:(623,5)-(629,33): warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In a case alternative:
+        Patterns not matched:
+            Pagina7
+            Pagina8
+            Pagina9
+            Pagina10
+    |
+623 |     case p of
+    |     ^^^^^^^^^...
+dep/psql/src/Database/PostgreSQL/Simple/Arrays.hs:19:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+   |
+19 | import           Data.Monoid
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dep/psql/src/Database/PostgreSQL/Simple/Compat.hs:15:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+   |
+15 | import Data.Monoid
+   | ^^^^^^^^^^^^^^^^^^
+dep/psql/src/Database/PostgreSQL/Simple/Time/Internal/Parser.hs:31:1: warning: [-Wunused-imports]
+    The import of ‘Data.ByteString’ is redundant
+   |
+31 | import Data.ByteString (ByteString)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dep/psql/src/Database/PostgreSQL/Simple/Internal.hs:37:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+   |
+37 | import           Data.Monoid
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dep/psql/src/Database/PostgreSQL/Simple/Internal.hs:356:17: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In a case alternative:
+        Patterns not matched:
+            CopyBoth
+            SingleTuple
+    |
+356 |                 case status of
+    |                 ^^^^^^^^^^^^^^...
+dep/psql/src/Database/PostgreSQL/Simple/Internal.hs:377:5: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In a case alternative:
+        Patterns not matched:
+            CopyBoth
+            SingleTuple
+    |
+377 |     case status of
+    |     ^^^^^^^^^^^^^^...
+dep/psql/src/Database/PostgreSQL/Simple/Errors.hs:28:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+   |
+28 | import Control.Applicative
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+backend/src/Backend.hs:13:1: warning: [-Wunused-imports]
+    The import of ‘Data.Text’ is redundant
+   |
+13 | import Data.Text
+   | ^^^^^^^^^^^^^^^^
+backend/src/Backend.hs:51:17: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In a case alternative:
+        Patterns not matched:
+            (BackendRoute_Missing :/ _)
+            (BackendRoute_Insere :/ _)
+   |
+51 |         serve $ \case
+   |                 ^^^^^...
+backend/src/Backend.hs:60:26: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying
+      ‘_ <- liftIO
+              $ do execute_ dbcon migrationProd
+                   execute
+                     dbcon
+                     "INSERT INTO produtos(nome,valor,qt) VALUES (?,?,?)"
+                     (prod :: Produto)’
+   |
+60 |                          liftIO $ do
+   |                          ^^^^^^^^^^^...
+backend/src/Backend.hs:61:30: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying ‘_ <- execute_ dbcon migrationProd’
+   |
+61 |                              execute_ dbcon migrationProd
+   |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+backend/src/Backend.hs:72:26: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying
+      ‘_ <- liftIO
+              $ do execute_ dbcon migrationRest
+                   execute
+                     dbcon
+                     "INSERT INTO tableRestaurante5(nome,fila,nota) VALUES (?,?,?)"
+                     (res :: Restaurante1)’
+   |
+72 |                          liftIO $ do
+   |                          ^^^^^^^^^^^...
+backend/src/Backend.hs:73:30: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying ‘_ <- execute_ dbcon migrationRest’
+   |
+73 |                              execute_ dbcon migrationRest
+   |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+backend/src/Backend.hs:84:26: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying
+      ‘_ <- liftIO
+              $ do execute_ dbcon migrationCliente
+                   execute
+                     dbcon
+                     "INSERT INTO tableCliente5(nome,telefone,acompanhante) VALUES (?,?,?)"
+                     (cli :: ClienteRestaurante1)’
+   |
+84 |                          liftIO $ do
+   |                          ^^^^^^^^^^^...
+backend/src/Backend.hs:85:30: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying
+      ‘_ <- execute_ dbcon migrationCliente’
+   |
+85 |                              execute_ dbcon migrationCliente
+   |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+backend/src/Backend.hs:96:26: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying
+      ‘_ <- liftIO
+              $ do execute_ dbcon migrationPrato
+                   execute
+                     dbcon
+                     "INSERT INTO tablePrato5(nome,preco,nota) VALUES (?,?,?)"
+                     (prt :: Prato1)’
+   |
+96 |                          liftIO $ do
+   |                          ^^^^^^^^^^^...
+backend/src/Backend.hs:97:30: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying
+      ‘_ <- execute_ dbcon migrationPrato’
+   |
+97 |                              execute_ dbcon migrationPrato
+   |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+backend/src/Backend.hs:110:25: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying ‘_ <- execute_ dbcon migrationProd’
+    |
+110 |                         execute_ dbcon migrationProd
+    |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+backend/src/Backend.hs:119:25: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying ‘_ <- execute_ dbcon migrationRest’
+    |
+119 |                         execute_ dbcon migrationRest
+    |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+backend/src/Backend.hs:128:25: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying
+      ‘_ <- execute_ dbcon migrationCliente’
+    |
+128 |                         execute_ dbcon migrationCliente
+    |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+backend/src/Backend.hs:137:25: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying
+      ‘_ <- execute_ dbcon migrationPrato’
+    |
+137 |                         execute_ dbcon migrationPrato
+    |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+backend/src/Backend.hs:152:26: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying
+      ‘_ <- liftIO
+              $ do execute_ dbcon migrationProd
+                   execute
+                     dbcon
+                     "UPDATE produtos SET nome =?,valor=?,qt=? WHERE id=?"
+                     (nomeProduto prod, valorProduto prod, qtProduto prod, pid)’
+    |
+152 |                          liftIO $ do
+    |                          ^^^^^^^^^^^...
+backend/src/Backend.hs:153:30: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying ‘_ <- execute_ dbcon migrationProd’
+    |
+153 |                              execute_ dbcon migrationProd
+    |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+backend/src/Backend.hs:165:26: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying
+      ‘_ <- liftIO
+              $ do execute_ dbcon migrationRest
+                   execute
+                     dbcon
+                     "UPDATE tableRestaurante5 SET nome =?,fila=?,nota=? WHERE idRest=?"
+                     (nomeRestaurante res, quantidadeFila res, notaRestaurante res, 
+                      idRest res)’
+    |
+165 |                          liftIO $ do
+    |                          ^^^^^^^^^^^...
+backend/src/Backend.hs:166:30: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying ‘_ <- execute_ dbcon migrationRest’
+    |
+166 |                              execute_ dbcon migrationRest
+    |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+backend/src/Backend.hs:178:26: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying
+      ‘_ <- liftIO
+              $ do execute_ dbcon migrationCliente
+                   execute
+                     dbcon
+                     "UPDATE tableCliente5 SET nome =?,telefone=?,acompanhante=? WHERE idCliente=?"
+                     (nomeCliente cli, telefone cli, qntPessoas cli, idCliente cli)’
+    |
+178 |                          liftIO $ do
+    |                          ^^^^^^^^^^^...
+backend/src/Backend.hs:179:30: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying
+      ‘_ <- execute_ dbcon migrationCliente’
+    |
+179 |                              execute_ dbcon migrationCliente
+    |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+backend/src/Backend.hs:190:26: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying
+      ‘_ <- liftIO
+              $ do execute_ dbcon migrationPrato
+                   execute
+                     dbcon
+                     "UPDATE tablePrato5 SET nome =?,preco=?,nota=? WHERE idPrato=?"
+                     (nomePrato prt, precoPrato prt, notaPrato prt, idPrato prt)’
+    |
+190 |                          liftIO $ do
+    |                          ^^^^^^^^^^^...
+backend/src/Backend.hs:191:30: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying
+      ‘_ <- execute_ dbcon migrationPrato’
+    |
+191 |                              execute_ dbcon migrationPrato
+    |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+backend/src/Backend.hs:205:26: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying
+      ‘_ <- liftIO
+              $ do execute_ dbcon migrationRest
+                   execute
+                     dbcon
+                     "UPDATE tableRestaurante5 SET nome =?,fila=?,nota=?,campo=? WHERE idRest=?"
+                     (nomeRestaurante2 res, quantidadeFila2 res, notaRestaurante2 res, 
+                      delRes2 res, idRest2 res)’
+    |
+205 |                          liftIO $ do
+    |                          ^^^^^^^^^^^...
+backend/src/Backend.hs:206:30: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying ‘_ <- execute_ dbcon migrationRest’
+    |
+206 |                              execute_ dbcon migrationRest
+    |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+backend/src/Backend.hs:219:26: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying
+      ‘_ <- liftIO
+              $ do execute_ dbcon migrationCliente
+                   execute
+                     dbcon
+                     "UPDATE tableCliente5 SET nome =?,telefone=?,acompanhante=?,campo=? WHERE idCliente=?"
+                     (nomeCliente2 cli, telefone2 cli, qntPessoas2 cli, delCli2 cli, 
+                      idCliente2 cli)’
+    |
+219 |                          liftIO $ do
+    |                          ^^^^^^^^^^^...
+backend/src/Backend.hs:220:30: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying
+      ‘_ <- execute_ dbcon migrationCliente’
+    |
+220 |                              execute_ dbcon migrationCliente
+    |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+backend/src/Backend.hs:230:26: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying
+      ‘_ <- liftIO
+              $ do execute_ dbcon migrationPrato
+                   execute
+                     dbcon
+                     "UPDATE tablePrato5 SET nome =?,preco=?,nota=?,campo=? WHERE idPrato=?"
+                     (nomePrato2 prt, precoPrato2 prt, notaPrato2 prt, delPrato2 prt, 
+                      idPrato2 prt)’
+    |
+230 |                          liftIO $ do
+    |                          ^^^^^^^^^^^...
+backend/src/Backend.hs:231:30: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying
+      ‘_ <- execute_ dbcon migrationPrato’
+    |
+231 |                              execute_ dbcon migrationPrato
+    |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+backend/src/Backend.hs:243:25: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘GHC.Int.Int64’
+    Suppress this warning by saying ‘_ <- execute_ dbcon migrationProd’
+    |
+243 |                         execute_ dbcon migrationProd
+    |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
