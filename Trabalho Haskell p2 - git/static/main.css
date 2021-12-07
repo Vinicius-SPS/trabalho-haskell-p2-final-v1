@@ -1,0 +1,354 @@
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+}
+
+/*USAANDO NO TRABALHO P2*/
+
+.imagem-prato{
+  background-image: url(/static/pizza-2068272_1920.jpg);
+}
+.imagem-cliente{
+    background-image: url(/static/home-img.jpg);
+}
+.imagem-restaurante{
+  background-image: url(/static/restaurant-449952_1920.jpg);
+}
+
+
+.container {
+  width: 100%;
+  height:100vh;
+  margin-bottom: -1.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  border: 1px solid black;
+  background-color: white;
+  padding-left: 2%;
+  padding-top: 2%;
+  border-radius: 10px;
+  width: 20%;
+  height: 70%;
+  margin-top: -10%;
+  margin-right: 5%;
+}
+
+.box-editar{
+  border: 1px solid black;
+  background-color: white;
+  padding-left: 2%;
+  padding-top: 2%;
+  border-radius: 10px;
+  width: 20%;
+  height: 70%;
+  margin-top: -10%;
+  margin-right: 5%;
+}
+
+.box-deletar{
+  border: 1px solid black;
+  background-color: white;
+  padding-left: 2%;
+  padding-top: 2%;
+  border-radius: 10px;
+  width: 20%;
+  height: 70%;
+  margin-top: -10%;
+}
+
+.box-listar{
+  border: 1px solid black;
+  background-color: white;
+  padding-left: 2%;
+  padding-top: 2%;
+  border-radius: 10px;
+  width: 50%;
+  height: 60%;
+  margin-top: -10%;
+}
+.elemento-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: -13%;
+}
+
+
+/*FOOTER*/
+.footer{
+  border: 1px solid black;
+  width: 100%;
+  height: 20vh;
+  background-color:  #50223C;
+}
+
+.footer ul{
+  list-style-type: none;
+  color:#F58427;
+}
+.footer-mesa-livre li {
+  list-style-type: none;
+  color:#F58427;
+}
+
+.footer-info-geral, .redesSociais{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-link{
+    display:flex;
+    list-style-type: none;
+    color: blue;
+}
+
+.imagem-footer-twitter{
+    background-image: url(/static/twitter.png);
+    list-style-type: none;
+    background-size: 60px 60px;
+}
+
+
+.imagem-footer-facebook{
+    background-image: url(/static/facebook.png);
+    list-style-type: none;
+    background-size: 60px 60px;
+
+}
+
+/*NAO USANDO NA P2*/
+/*HOME*/
+
+.borda-home-pesquisa{
+    border-style: solid;
+    border-width: 1px;
+    border-color: solid black;
+    height: 90vh;
+}
+
+.imagem-index{
+    background-image: url(/static/home-img.jpg);
+
+
+
+}
+
+.container-home{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tamanho{
+    width: 20%;
+
+}
+
+
+
+
+
+/*FOOTER*/
+
+.footer{
+  border: 1px solid black;
+  width: 100%;
+  height: 20vh;
+  margin-top: 0%;
+  background-color:  #50223C;
+}
+
+.footer ul{
+  list-style-type: none;
+  color:#F58427;
+}
+.footer-mesa-livre li {
+  list-style-type: none;
+  color:#F58427;
+}
+
+.footer-info-geral, .redesSociais{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-link{
+    display:flex;
+    list-style-type: none;
+    color: blue;
+}
+
+.imagem-footer-twitter{
+    background-image: url(/static/twitter.png);
+    list-style-type: none;
+    background-size: 60px 60px;
+}
+
+
+.imagem-footer-facebook{
+    background-image: url(/static/facebook.png);
+    list-style-type: none;
+    background-size: 60px 60px;
+
+}
+
+/*ENTRAR | LOGIN*/
+.login-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box{
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 10px;
+  width: 50vh;
+  height: 40vh;
+  margin-top: -10%;
+}
+
+.elemento-login-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: -13%;
+}
+
+.imagem-login{
+  background-image: url(/static/brick-wall-1834784_1920.jpg);
+ /*
+  margin-top: -10%;
+
+  margin-bottom: -10%;
+  margin-top: -10%;
+  */
+}
+
+
+/*ESQUECI A SENHA*/
+.esqueci-box{
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 10px;
+  width: 50vh;
+  height: 30vh;
+  margin-top: -10%;
+}
+.esqueci-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.imagem-esqueci{
+  background-image: url(/static/pizza-2068272_1920.jpg);
+ /*
+  margin-top: -10%;
+  */
+}
+
+
+
+
+/*CADASTRO ESCOLHER | CADASTRO RESTAURANTE | CADASTRO RESTAURANTE*/
+.imagem-cadastro-escolher{
+  background-image: url(/static/south-station-4927286_1920.jpg);
+  /*
+  margin-top: -10%;
+  */
+}
+
+.cadastro{
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 35vh;
+  height: 50vh;
+
+}
+.cadastro-box{
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 10px;
+  width: 50vh;
+  height: 60vh;
+  margin-top: -10%;
+}
+
+.elemento-cadastro-box , .elemento-registro-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: -13%;
+  height: 40%;
+}
+
+.cadastro-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cadastro-restaurante{
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 50vh;
+  height: 50vh;
+}
+
+.centro-cadastro{
+  margin-top:0%;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+.opcao-cadastro{
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 30%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15vh;
+  margin-right: 15vh;
+  background-color:white;
+}
+
+.titulo-opcao{
+  text-align: center;
+  font-size: 5vh;
+
+}
+
+
+
